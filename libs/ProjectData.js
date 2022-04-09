@@ -29,6 +29,8 @@ const Projects = [
          "CSS",
          "HTML",
          "Prisma",
+         "PostgreSQL",
+         "Heroku",
          "Express",
          "Node.js",
          "MaterialMUI",
@@ -37,8 +39,27 @@ const Projects = [
       ],
       github:
          "https://github.com/SchoolOfCode/final-project-repo-easy-scrum-easy-go-room-21",
-      description: "",
+      description:
+         "WeShare is a website demo that I and an Agile team of 5 others created for our final project at our boot camp. It is a skill-sharing website that promotes skill for skill exchange. I worked both on the front-end (creating components, handling user input using React state to search for courses) and the back-end (e.g writing mock course data to our database using Prisma ORM). ",
       url: "https://servicestack.netlify.app/",
+      isDeployed: true,
+   },
+   {
+      id: 3,
+      title: "Natural Hair API",
+      tech: [
+         "JavaScript",
+         "Postman",
+         "Express",
+         "Node.js",
+         "PostgreSQL",
+         "AWS CDK",
+         "AWS Lambda",
+      ],
+      github: "https://github.com/Sheb95/natural-hair-backend",
+      description:
+         "I used this basic project as an opportunity to become more acquainted with AWS's core services as well as Infrastructure as Code (IaC). I configured the cloud infrastructure for this app with AWS CDK (JavaScript) and then deployed it on AWS. This gave me a basic understanding of cloud computing as well as the advantages of using IaC. ",
+      url: "https://tss5wkf2x0.execute-api.eu-west-1.amazonaws.com/prod/hairstyles",
       isDeployed: true,
    },
 ];
